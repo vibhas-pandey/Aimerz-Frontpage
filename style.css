@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(250, 235, 215);
+}
+section{
+    background-color: white;
+    display: flex;
+    /* padding: 0;
+    margin-top: 0; */
+}
+section img{
+    width: 200px;
+    padding: 10px;
+}
+section nav{
+    text-align: right;
+    margin-left: 70%;
+    font-size: 18px;
+    gap: 5px;
+    padding-top: 5px;
+    padding-right: 1px;
+    margin-top: 25px;
+    
+    
+}
+.name{
+    color: rgb(255, 115, 0);
+}
+section nav a{
+    color: gray;
+    justify-content: space-between;
+}
+
+.hey{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px;
+}
+.hey span{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.para{
+    /* font-size: 18px; */
+    font-size: 22px;
+    font-weight: 700px;
+    padding-left: 30px;
+    /* font-family: sans-serif; */
+
+}
+button{
+    background-color: yellow;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-left: 30px; */
+    border-radius: 8px;
+
+}
+.button{
+    padding-left: 30px;
+    border-width: 60px;
+    font-family: sans-serif;
+}
+/* h1{
+    text-shadow:2px 2px 2px rgb(255,247,0);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+} */
+
+.main1{
+    display: flex;
+}
+
+.hello{
+    font-size: 35px;
+    padding: 30px;
+}
+.hello span{
+    color: rgb(255, 123, 0);
+}
